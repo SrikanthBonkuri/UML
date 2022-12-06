@@ -1,23 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T12:55:10.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="vGnRvaLWij39oxo33YVR" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T14:23:53.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="6I8IB9FR1oFwSX05dTPq" type="github">
   <diagram id="opRbN851AEoW9ykvf9_C" name="Page-1">
-    <mxGraphModel dx="899" dy="1472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="862" dy="1457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mzzcEleAXUbefKg6ftuE-1" value="Customer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="-844" width="230" height="294" as="geometry" />
+          <mxGeometry x="160" y="-680" width="190" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="mzzcEleAXUbefKg6ftuE-2" value="- name: String&#xa;- contact: String&#xa;- vehicles: List&lt;Vehicle&gt;&#xa;- claims: List&lt;Claim&gt;&#xa;- payments: List&lt;Payment&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-1">
-          <mxGeometry y="26" width="230" height="90" as="geometry" />
+        <mxCell id="mzzcEleAXUbefKg6ftuE-2" value="+ name: String&#xa;+ contact: String&#xa;+ vehicles: List&lt;Vehicle&gt;&#xa;+ claims: List&lt;Claim&gt;&#xa;+ payments: List&lt;Payment&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-1">
+          <mxGeometry y="26" width="190" height="84" as="geometry" />
         </mxCell>
         <mxCell id="mzzcEleAXUbefKg6ftuE-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-1">
-          <mxGeometry y="116" width="230" height="8" as="geometry" />
+          <mxGeometry y="110" width="190" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="mzzcEleAXUbefKg6ftuE-4" value="+ getName(): String&#xa;+ getContactInfo(): String&#xa;+ setContactInfo(String):&#xa;+ setName(String):&#xa;+ updateVehicles(Vehicle): &#xa;+ getVehicles(): List&lt;Vehicle&gt;&#xa;+ makePayment(double):&#xa;+ getPayments(): List&lt;Payment&gt;&#xa;+ addClaim(Claim):&#xa;+ getClaims(): List&lt;Claim&gt; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-1">
-          <mxGeometry y="124" width="230" height="170" as="geometry" />
+        <mxCell id="mzzcEleAXUbefKg6ftuE-43" value="has" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;entryX=0.003;entryY=0.103;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mzzcEleAXUbefKg6ftuE-1" target="mzzcEleAXUbefKg6ftuE-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="130" />
+            </Array>
+            <mxPoint x="190" y="130" as="sourcePoint" />
+            <mxPoint x="370" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-20" value="+ updateVehicles(Vehicle): &#xa;+ getVehicles(): List&lt;Vehicle&gt;&#xa;+ makePayment(double):&#xa;+ getPayments(): List&lt;Payment&gt;&#xa;+ addClaim(Claim):&#xa;+ getClaims(): List&lt;Claim&gt; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-1">
+          <mxGeometry y="118" width="190" height="112" as="geometry" />
         </mxCell>
         <mxCell id="mzzcEleAXUbefKg6ftuE-5" value="Vehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="-844" width="220" height="242" as="geometry" />
+          <mxGeometry x="583.25" y="-680" width="220" height="242" as="geometry" />
         </mxCell>
         <mxCell id="mzzcEleAXUbefKg6ftuE-6" value="- registrationNumber: String&#xa;- policies: List&lt;InsurancePolicy&gt;&#xa;- currentValue: double&#xa;- damagedInventory: List&lt;String&gt;&#xa;- currentState: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-5">
           <mxGeometry y="26" width="220" height="84" as="geometry" />
@@ -25,8 +34,115 @@
         <mxCell id="mzzcEleAXUbefKg6ftuE-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-5">
           <mxGeometry y="110" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="mzzcEleAXUbefKg6ftuE-8" value="+ getRegistrationNumber: String&#xa;+ addPolicy(Policy): &#xa;+ getPolicies(): List&lt;InsurancePolicy&gt;&#xa;+ getDamagedInventory(): List&lt;String&gt;&#xa;+ updateInventory(String):&#xa;+ setCurrentState(String):&#xa;+ getCurrentState(double):" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-5">
+        <mxCell id="mzzcEleAXUbefKg6ftuE-8" value="+ addPolicy(Policy): &#xa;+ getPolicies(): List&lt;InsurancePolicy&gt;&#xa;+ getDamagedInventory(): List&lt;String&gt;&#xa;+ updateInventory(String):&#xa;+ setCurrentState(String):&#xa;+ getCurrentState(double):" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-5">
           <mxGeometry y="118" width="220" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-9" value="Claim" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-364" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-10" value="+ claimID: integer&#xa;+ date: String&#xa;+ vehicle: Vehicle&#xa;+ damagedInventory: List&lt;String&gt;&#xa;+ settlements: List&lt;Settlement&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-9">
+          <mxGeometry y="26" width="220" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-9">
+          <mxGeometry y="130" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-19" value="+ getSettlements(): List&lt;Settlement&gt;&#xa;+ getDamagedInventory: List&lt;String&gt;&#xa;+ setDamagedInventory(List&lt;String&gt;):&#xa;+ createSettlement(): Void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-9">
+          <mxGeometry y="138" width="220" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-13" value="Settlement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="586.5" y="-364" width="213.5" height="302" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-14" value="+ settlementID: int&#xa;+ claim: Claim&#xa;+ payments: List&lt;double&gt;&#xa;+ acceptance: Boolean&#xa;+ justification: List&lt;String&gt;&#xa;+ amount: double&#xa;+ destination: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-13">
+          <mxGeometry y="26" width="213.5" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-13">
+          <mxGeometry y="140" width="213.5" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-16" value="+ getPayments(): List&lt;double&gt;&#xa;+ getClaim(): Claim&#xa;+ getVehicle(): Vehicle&#xa;+ isAccepted(): Boolean&#xa;# verifyClaim():&#xa;# updatePlanCoverageCap():&#xa;# updateVehicleStateAndValue():&#xa;+ makeSettle(): Void&#xa;+ getJustification(): List&lt;String&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-13">
+          <mxGeometry y="148" width="213.5" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-21" value="InsurancePolicy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-1000" width="180" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-22" value="+ policyID: integer&#xa;+ startDate: String&#xa;+ renewDate: String&#xa;+ premium: double&#xa;+ coverage: double&#xa;+ plans: List&lt;Plan&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-21">
+          <mxGeometry y="26" width="180" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-21">
+          <mxGeometry y="140" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-38" value="+ getPolicyID(): int&#xa;+ updateVehicle(): Void&#xa;+ addPlan(Plan): Void&#xa;+ getPlans(): List&lt;Plan&gt;&#xa;+ getPolicyData(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-21">
+          <mxGeometry y="148" width="180" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-30" value="Risk" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-960" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-31" value="+ riskID: integer&#xa;+ riskType: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-30">
+          <mxGeometry y="26" width="170" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-30">
+          <mxGeometry y="70" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-37" value="+ addRisksCovered(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-30">
+          <mxGeometry y="78" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-25" value="Plan" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-960" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-26" value="+ planID: integer&#xa;+ risksCovered: List&lt;Risk&gt;&#xa;+ premiumPercent: double&#xa;+ coveragePercent: double&#xa;+ coverageCap: integer&#xa;+ deathCoverage: integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-25">
+          <mxGeometry y="26" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-25">
+          <mxGeometry y="116" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-29" value="+ getPremium(): double&#xa;+ getCoverage(): double&#xa;+ addRisksCovered(Risk):&#xa;+ getRisksCovered(): List&lt;Risk&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-25">
+          <mxGeometry y="124" width="180" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-39" value="Transaction" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-400" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-40" value="+ transID: integer&#xa;+ date: String&#xa;+ customerName: String&#xa;+ policyID: integer&#xa;+ amountPaid: double&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-39">
+          <mxGeometry y="26" width="170" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-39">
+          <mxGeometry y="120" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-42" value="+ generateReceipt(): Void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzzcEleAXUbefKg6ftuE-39">
+          <mxGeometry y="128" width="170" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-45" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="543.25" y="-550" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-46" value="has" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;entryX=0.691;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.017;exitY=0.163;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mzzcEleAXUbefKg6ftuE-2" target="mzzcEleAXUbefKg6ftuE-38">
+          <mxGeometry x="-0.082" y="-10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="-640" />
+              <mxPoint x="400" y="-710" />
+              <mxPoint x="284" y="-710" />
+            </Array>
+            <mxPoint x="400" y="-700" as="sourcePoint" />
+            <mxPoint x="599.9999999999999" y="-689.228" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-47" value="has" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;" edge="1" parent="1" target="mzzcEleAXUbefKg6ftuE-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="737" y="-810" />
+            </Array>
+            <mxPoint x="596.09" y="-810" as="sourcePoint" />
+            <mxPoint x="829.9999999999999" y="-809.2280000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzzcEleAXUbefKg6ftuE-48" value="has" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.04;exitY=0.091;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;exitPerimeter=0;" edge="1" parent="1" source="mzzcEleAXUbefKg6ftuE-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="-964" />
+              <mxPoint x="380" y="-920" />
+              <mxPoint x="420" y="-920" />
+            </Array>
+            <mxPoint x="390" y="-1020" as="sourcePoint" />
+            <mxPoint x="420" y="-920" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
